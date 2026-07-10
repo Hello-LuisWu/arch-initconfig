@@ -68,7 +68,7 @@ Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 
 ```sh
 # 导入 archlinuxcn key
-sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy && sudo pacman -S archlinuxcn-keyring
 ```
 
 #### antergosarchlinux软件仓库的源
