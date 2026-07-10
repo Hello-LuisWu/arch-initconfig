@@ -182,11 +182,11 @@ sudo pacman -S base-devel
 
 ### 安装 yay
 
-yay(Yet Another Yogurt) 是 pacman 的封装工具，会自动同时检索官方仓库（pacman 源） + AUR：
-包存在官方源 → 内部调用 sudo pacman 安装
-仅存在 AUR → 自动拉取 PKGBUILD、编译安装
-所有 pacman 参数 -S/-R/-Q/-Syu 在 yay 里通用，不用分开敲两条命令。
-安装 yay 之前，必须确保系统已安装 base-devel 和 git 这两个基础工具包。
+yay(Yet Another Yogurt) 是 pacman 的封装工具，会自动同时检索官方仓库（pacman 源） + AUR：  
+包存在官方源 → 内部调用 sudo pacman 安装  
+仅存在 AUR → 自动拉取 PKGBUILD、编译安装  
+所有 pacman 参数 -S/-R/-Q/-Syu 在 yay 里通用，不用分开敲两条命令。  
+安装 yay 之前，必须确保系统已安装 base-devel 和 git 这两个基础工具包。  
 yay 的安装过程本身就是通过 makepkg（包含在 base-devel 中）从 AUR 的 PKGBUILD 文件构建的。
 
 ```sh
