@@ -30,7 +30,7 @@ sudo pacman -Syyu
 
 ### 添加非官方 的源
 
-用 `vim /etc/pacman.conf` 命令打开 `pacman.conf` 文件也可以写在`/etc/pacman.d/mirrorlist`
+用 `vim /etc/pacman.conf` 命令打开 `pacman.conf` 文件，或者也可以写在`/etc/pacman.d/mirrorlist` 文件里
 
 > 注：pacman.conf 是 pacman 的总主控配置；mirrorlist 只是单独存放「所有镜像服务器地址」的引用文件，被 pacman.conf 导入使用。
 > 控制 pacman 全部全局行为、仓库定义、安全规则、下载行为，是包管理器的主配置入口
